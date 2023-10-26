@@ -9,17 +9,20 @@
     <script src="form.js"></script>
 </head>
 <body>
-    <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Lugares</a>
-        <a href="#">Contacto</a>
-    </nav>
+  <nav>
+    <div class="logo">
+      <img src="img/Visita_arg_logo.png" alt="Visita Argentina">
+    </div>
+      <a href="index.html">Inicio</a>
+      <a href="slider/slider.html">Lugares</a>
+      <a href="form.html">Contacto</a>
+  </nav>
     <form action="/" name="Form" onsubmit="return validateForm()" method="post">
       <h1>Formulario de Contacto</h1>
       <div class="inf">
-        <input class="fname" type="text" name="Nombre" placeholder="Nombre Completo">
+        <input class="fname" type="text" name="Nombre" placeholder="Nombre completo">
         <input type="text" name="Email" placeholder="Email" id="mail" name="mail">
-        <input type="text" name="Telefono" placeholder="Telefono">
+        <input type="text" name="Teléfono" placeholder="Teléfono">
       </div>
       <p>Mensaje</p>
       <div>

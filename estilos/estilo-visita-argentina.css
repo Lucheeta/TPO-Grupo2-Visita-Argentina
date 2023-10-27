@@ -5,7 +5,11 @@
 body {
     font-family: Arial, sans-serif;
   }
-
+  
+.googleapis {
+  font-family: 'Dancing Script', cursive;
+  font-size: 5rem;
+}
   nav {
     display: flex;
     justify-content: space-between;

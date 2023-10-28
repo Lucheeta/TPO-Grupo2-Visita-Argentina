@@ -214,3 +214,29 @@ footer {
       border: 1px solid #1cc91c;
       outline: none;
       }
+
+      .destino {
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        background-color: #fff;
+        max-width: 300px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .destino img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .h2-destino {
+        font-size: 1.5em;
+        margin-top: 10px;
+    }
+
+    .p-destino {
+        font-size: 1em;
+    }

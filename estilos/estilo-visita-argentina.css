@@ -5,7 +5,7 @@
 body {
     font-family: Arial, sans-serif;
   }
-  
+
 .googleapis {
   font-family: 'Dancing Script', cursive;
   font-size: 5rem;
@@ -65,6 +65,14 @@ body {
   padding: 10px;
   color: cornflowerblue;
   text-align: center;
+}
+
+i {
+  transition: 3s;
+}
+
+i:hover {
+  transform: translate(10px, 10px);
 }
 
 iframe {

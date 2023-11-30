@@ -241,6 +241,16 @@ footer {
   text-align: center;
 }
 
+@media screen and (max-width:800px) {
+  .grupo-1 {
+    width: 90%;    
+    grid-template-columns: repeat(1, 1fr);
+    grid: gap 50px;
+    padding: 35px 0px;
+  } 
+  
+}
+
 @media (max-width: 600px) {
     .row {
       -webkit-flex-direction: column;

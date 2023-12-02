@@ -33,3 +33,4 @@ function previous() {
 setInterval(function() {
   next()
 }, 5000)
+

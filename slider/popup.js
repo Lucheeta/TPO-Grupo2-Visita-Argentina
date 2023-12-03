@@ -1,4 +1,4 @@
-let btnAbrirPopup = document.getElementById("ver-mas-btn");
+let btnAbrirPopup = document.getElementById("lugares");
 let overlay = document.getElementById("overlay");
 let popup = document.getElementById("popup");
 let btnCerrarPopup = document.getElementById("btn-cerrar-popup");
